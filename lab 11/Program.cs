@@ -1,15 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿public delegate void MyDelegate();
+//student name yogesh yogesh
+// student id c0722784
+//csd3354 Section 2
+//Assignment 2
+// march 6,2019
 
-namespace lab_11
+public class DelegateExercises
 {
-    class Program
+    void Method3()
     {
-        static void Main(string[] args)
-        {
-        }
+        System.Console.WriteLine(MyDelegate.ToString());
     }
 }
